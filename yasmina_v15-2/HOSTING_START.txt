@@ -1,0 +1,22 @@
+YASMINA COLLECTION — ONLINE HOSTING VERSION
+
+This version is prepared for a Node/Docker web host.
+
+You will NOT need to run START_YASMINA.command after the shop is hosted.
+
+Telegram:
+1. Create the bot with @BotFather.
+2. On the hosting provider, add TELEGRAM_BOT_TOKEN as a secret/environment variable.
+3. Open your online Yasmina Admin page.
+4. Log in.
+5. Go to Connections → Notifications.
+6. Send /start to your bot.
+7. Click Find Chat ID.
+8. Enable order notifications and save.
+
+IMPORTANT:
+- Never put the Telegram token into index.html, script.js, or any public file.
+- Keep ADMIN_PASSWORD and TELEGRAM_BOT_TOKEN as hosting secrets.
+- A persistent disk/volume is recommended if the host does not persist /app/data between deploys.
+
+The project includes Dockerfile and render.yaml for hosts that support Docker/Render-style deployment.

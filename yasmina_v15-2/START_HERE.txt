@@ -1,0 +1,17 @@
+YASMINA COLLECTION — SIMPLE START
+
+1. Double-click START_YASMINA.command
+2. Your browser will open the Admin page automatically.
+3. Log in with your admin account.
+4. Go to Connections → Notifications.
+5. Paste your Telegram bot token and click Save bot token.
+6. In Telegram, open your bot and send /start.
+7. Back in Yasmina, click Find chat ID.
+8. Turn on Enable order notifications.
+9. Click Save connection settings.
+10. Click Send test message.
+
+IMPORTANT:
+- Do not send your Telegram bot token to anyone.
+- Keep the Terminal window open while Yasmina is running.
+- To stop Yasmina, close the Terminal window.

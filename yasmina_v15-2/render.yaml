@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: yasmina-collection
+    runtime: docker
+    plan: free
+    envVars:
+      - key: ADMIN_EMAIL
+        value: admin@yasminacollection.com
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: DATA_DIR
+        value: /app/data
+    healthCheckPath: /api/health

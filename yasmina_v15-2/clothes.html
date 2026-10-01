@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Yasmina Collection — all modest clothes, abayas, dresses, sets, outerwear and scarves.">
+  <meta name="theme-color" content="#efe8df">
+  <title>Clothes — Yasmina Collection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="clothes">
+  <div class="announcement"><span class="announcement-crescent">☾</span> RAMADAN EDIT <span>•</span> MODEST, TIMELESS, YOURS <span class="announcement-star">✦</span></div>
+  <div class="contact-topbar" aria-label="Yasmina Collection contact information">
+    <div class="contact-topbar-inner">
+      <a id="topPhone" class="top-contact" href="tel:+998911908740"><span>☎</span><b>+998 91 190 87 40</b></a>
+      <a id="topAddress" class="top-contact top-address" href="https://yandex.com/maps/?text=Seoul%20Street%20190%2C%20Tashkent" target="_blank" rel="noopener"><span>⌖</span><b>Seoul Street 190, Tashkent</b></a>
+      <div class="top-socials" aria-label="Social media">
+        <a class="top-social social-link" data-social="instagram" href="#" target="_blank" rel="noopener" aria-label="Instagram">Instagram ↗</a>
+        <a class="top-social social-link" data-social="telegram" href="#" target="_blank" rel="noopener" aria-label="Telegram">Telegram ↗</a>
+      </div>
+    </div>
+  </div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Yasmina Collection home"><span class="brand-mark">Y</span><span><b>Yasmina</b><small>COLLECTION</small></span></a>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="index.html">Home</a><a class="active" href="clothes.html">Clothes</a><a href="index.html#story">Our story</a><a href="index.html#order">Order</a></nav>
+    <div class="header-actions"><button class="icon-btn" id="openSearch" aria-label="Search">⌕</button><button class="settings-btn" id="openSettings" aria-label="Settings">⚙ <span data-i18n="settings">Settings</span></button><button class="bag-btn" id="openCart" aria-label="Open shopping bag">Bag <span id="cartCount">0</span></button><button class="menu-btn" id="openMenu" aria-label="Open menu">☰</button></div>
+  </header>
+  <div class="mobile-menu" id="mobileMenu"><button class="close-menu" id="closeMenu">×</button><a href="index.html">Home</a><a href="clothes.html">Clothes</a><a href="index.html#story">Our story</a><a href="index.html#order">Order</a><button class="mobile-theme-link" id="openSettingsMobile">⚙ <span data-i18n="settings">Settings</span></button></div>
+  <main>
+    <section class="shop section clothes-page-hero">
+      <div class="section-top"><div><p class="eyebrow">YASMINA COLLECTION</p><h1 id="clothesTitle">All <em>clothes.</em></h1><p id="activeCategory" class="section-note">Showing every piece from Yasmina Collection.</p></div><p class="section-note">Explore every modest piece in the collection. Choose a category to find your next favorite.</p></div>
+      <div class="filter-row" id="filters">
+        <button class="filter active" data-filter="all">All</button><button class="filter" data-filter="Dresses">Dresses</button><button class="filter" data-filter="Abayas">Abayas</button><button class="filter" data-filter="Sets">Sets</button><button class="filter" data-filter="Outerwear">Outerwear</button><button class="filter" data-filter="Scarves">Scarves</button>
+      </div>
+      <div class="products" id="products"></div>
+    </section>
+  </main>
+  <footer><div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark">Y</span><span><b>Yasmina</b><small>COLLECTION</small></span></a><p>Modern modest fashion for women.</p></div><div class="footer-links"><div class="footer-contact"><b>VISIT <span data-shop-name>YASMINA</span></b><a id="shopPhonePublic" href="tel:+998911908740">+998 91 190 87 40</a><a id="shopAddressPublic" href="https://yandex.com/maps/?text=Seoul%20Street%20190%2C%20Tashkent" target="_blank" rel="noopener">Seoul Street 190, Tashkent ↗</a><small>Tap the address for Yandex Maps.</small></div><div><b>SHOP</b><a href="clothes.html?category=Dresses">Dresses</a><a href="clothes.html?category=Abayas">Abayas</a><a href="clothes.html?category=Sets">Sets</a></div><div><b>HELP</b><a href="index.html#order">Shipping</a><a href="index.html#order">Returns</a><a href="index.html#order">Contact</a></div><div><b>FOLLOW</b><a class="social-link" data-social="instagram" href="#" target="_blank" rel="noopener">Instagram ↗</a><a class="social-link" data-social="telegram" href="#" target="_blank" rel="noopener">Telegram ↗</a></div></div><div class="footer-bottom">© 2026 Yasmina Collection <span>Made with intention.</span></div></footer>
+
+
+  <div class="settings-overlay" id="settingsOverlay" aria-hidden="true">
+    <div class="settings-panel glass">
+      <button class="close-settings" id="closeSettings" aria-label="Close settings">×</button>
+      <p class="eyebrow" data-i18n="preferences">PREFERENCES</p>
+      <h2 data-i18n="settingsTitle">Your <em>settings.</em></h2>
+      <p class="settings-note" data-i18n="settingsNote">Choose your region, language and theme. Your choices are saved on this device.</p>
+      <div class="settings-grid">
+        <label><span data-i18n="region">Region</span><select id="regionSelect"><option value="UZ">🇺🇿 Uzbekistan</option><option value="KZ">🇰🇿 Kazakhstan</option><option value="KG">🇰🇬 Kyrgyzstan</option><option value="TJ">🇹🇯 Tajikistan</option><option value="AE">🇦🇪 United Arab Emirates</option><option value="US">🇺🇸 United States</option></select></label>
+        <label><span data-i18n="language">Language</span><select id="languageSelect"><option value="en">English</option><option value="uz">O‘zbekcha</option><option value="ru">Русский</option></select></label>
+      </div>
+      <div class="settings-section-title" data-i18n="theme">Theme</div>
+      <div class="theme-options">
+        <button class="theme-option" data-theme-choice="light"><span class="theme-preview light-preview">☀</span><strong data-i18n="light">Light</strong><small data-i18n="lightNote">Soft Yasmina</small></button>
+        <button class="theme-option" data-theme-choice="dark"><span class="theme-preview dark-preview">☾</span><strong data-i18n="dark">Dark</strong><small data-i18n="darkNote">Evening elegance</small></button>
+      </div>
+      <div class="settings-saved" id="settingsSaved" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <div class="search-overlay" id="searchOverlay"><button class="close-search" id="closeSearch">×</button><p class="eyebrow">SEARCH YASMINA</p><input id="searchInput" placeholder="Search dresses, abayas, scarves…" autocomplete="off"><div id="searchResults"></div></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag"><div class="drawer-head"><div><p class="eyebrow">YOUR BAG</p><h3>Selected pieces</h3></div><button id="closeCart">×</button></div><div id="drawerItems" class="drawer-items"></div><div class="drawer-foot"><div><span>Subtotal</span><strong id="drawerSubtotal">0 сум</strong></div><button class="primary-btn full" id="drawerCheckout">Continue to checkout <span>↗</span></button><button class="text-link" id="viewOrder">View order details</button></div></aside><div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
